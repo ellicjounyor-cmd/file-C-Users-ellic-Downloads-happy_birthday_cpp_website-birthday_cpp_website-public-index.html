@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <title>Happy Birthday, My Love 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sparkle-layer" id="sparkles" aria-hidden="true"></div>
+  <header class="topline">A LITTLE BIRTHDAY SURPRISE <span>✦</span></header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">TODAY IS ALL ABOUT YOU</p>
+      <h1>Happy Birthday,<br><em>My Love</em> <span class="heart">♡</span></h1>
+      <p class="intro">A little corner of the internet, made to celebrate someone wonderful.</p>
+      <button class="primary-btn" id="celebrateBtn">Let’s celebrate <span>♡</span></button>
+      <div class="scroll-note">SCROLL FOR YOUR SURPRISE <span>↓</span></div>
+    </section>
+
+    <section class="bouquet-section">
+      <div class="section-heading">
+        <p class="eyebrow">FLOWERS FOR YOU</p>
+        <h2>A bouquet that lasts <em>forever</em></h2>
+        <p>Because one bunch of flowers could never say it all.</p>
+      </div>
+      <div class="bouquet" role="img" aria-label="A dreamy illustrated bouquet of pink flowers">
+        <div class="stem stem1"></div><div class="stem stem2"></div><div class="stem stem3"></div>
+        <div class="leaf leaf1"></div><div class="leaf leaf2"></div><div class="leaf leaf3"></div>
+        <div class="flower f1"><i></i></div><div class="flower f2"><i></i></div>
+        <div class="flower f3"><i></i></div><div class="flower f4"><i></i></div>
+        <div class="wrap"></div><div class="ribbon"></div>
+      </div>
+      <p class="tiny-note">A virtual bouquet, with a whole lot of love 🌷</p>
+    </section>
+
+    <section class="letter-section">
+      <div class="letter-card">
+        <div class="letter-icon">💌</div>
+        <p class="eyebrow">A NOTE JUST FOR YOU</p>
+        <h2>Something from<br><em>my heart</em></h2>
+        <p class="letter-hint">There's a little message waiting inside.</p>
+        <button class="outline-btn" id="openLetter">Open your letter</button>
+        <div class="letter-content" id="letterContent" hidden>
+          <p>To my favourite person,</p>
+          <p>Today is a celebration of you — your kindness, your laughter, and all the little things that make you special. I hope this new year brings you beautiful memories, exciting adventures, and countless reasons to smile.</p>
+          <p>You deserve to feel appreciated and celebrated, today and every day.</p>
+          <p class="signature">With lots of love, ♡</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cake-section">
+      <p class="eyebrow">MAKE A WISH</p>
+      <h2>Your birthday <em>cake</em> 🎂</h2>
+      <p>Tap the candles to make a wish!</p>
+      <div class="cake" aria-label="Birthday cake with three candles">
+        <div class="candles">
+          <button class="candle lit" aria-label="Toggle candle one"><span class="flame"></span></button>
+          <button class="candle lit" aria-label="Toggle candle two"><span class="flame"></span></button>
+          <button class="candle lit" aria-label="Toggle candle three"><span class="flame"></span></button>
+        </div>
+        <div class="icing"></div><div class="cake-body"></div><div class="cake-plate"></div>
+      </div>
+      <p id="wishText" class="wish-text">Three little candles, three big wishes. ✨</p>
+    </section>
+
+    <section class="surprise-section">
+      <div class="surprise-card">
+        <div class="gift">🎁</div>
+        <p class="eyebrow">ONE LAST THING</p>
+        <h2>Ready for your <em>surprise?</em></h2>
+        <p>There's one more birthday message with your name on it.</p>
+        <button class="primary-btn" id="surpriseBtn">Open your surprise ✨</button>
+        <div id="surpriseMessage" class="surprise-message" hidden>
+          <h3>You are so loved! 💗</h3>
+          <p id="backendMessage">Loading your special message...</p>
+          <p class="big-heart">♡</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>MADE WITH LOVE, JUST FOR YOU <span>♡</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
